@@ -1,8 +1,8 @@
 import java.util.ArrayList;
 
 public class Biblioteca {
-    private ArrayList<Livro> livros;
-    private ArrayList<Usuario> usuarios;
+    private final ArrayList<Livro> livros;
+    private final ArrayList<Usuario> usuarios;
 
     public Biblioteca() {
         this.livros = new ArrayList<>();
@@ -52,6 +52,7 @@ public class Biblioteca {
         for (Livro livro : livros) {
             System.out.println(livro.getTitulo() + " - Disponível: " + (livro.isDisponivel() ? "Sim" : "Não"));
         }
+        throw new UnsupportedOperationException("Not supported yet.");
     }
 
     public void listaUsuarios() {
@@ -60,4 +61,6 @@ public class Biblioteca {
             System.out.println(usuario.getNome());
         }
     }
+
+
 }

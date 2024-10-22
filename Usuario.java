@@ -1,13 +1,11 @@
 import java.util.ArrayList;
 
 public class Usuario {
-    private String nome;
-    private int id;
-    private ArrayList<Livro> livrosEmprestados;
+    private final String nome;
+    private final ArrayList<Livro> livrosEmprestados;
 
     public Usuario(String nome, int id) {
         this.nome = nome;
-        this.id = id;
         this.livrosEmprestados = new ArrayList<>();
     }
 
