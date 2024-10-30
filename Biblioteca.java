@@ -52,7 +52,6 @@ public class Biblioteca {
         for (Livro livro : livros) {
             System.out.println(livro.getTitulo() + " - Disponível: " + (livro.isDisponivel() ? "Sim" : "Não"));
         }
-        throw new UnsupportedOperationException("Not supported yet.");
     }
 
     public void listaUsuarios() {
