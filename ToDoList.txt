@@ -1,0 +1,8 @@
+Resumo do que fiz: 
+    05/10 = Fiz a estrutura das classes, mas esta dando varios problemas no cosole. O codigo ta rodando, mas precisa ser otimizado.
+
+To Do Next:
+    - Resolver os problemas que aparecem no console (PROBLEMS); FEITO
+    - Estudar o framework para interface grafica e transformar o bookwise em um app desktop; 
+    - conectar com um banco de dados
+    - Depois que estiver tudo funcionando, tenho que fazer uma documentação detalhada e ajeitar a apresentação do projeto;
